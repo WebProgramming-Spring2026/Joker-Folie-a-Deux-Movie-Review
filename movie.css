@@ -82,7 +82,7 @@ body {
 
 .poster-item {
   text-align: center;
-  width: calc(50% - 5px);
+  width: calc(33.333% - 5px);
 }
 
 .poster-item img {
@@ -94,6 +94,7 @@ body {
 .poster-item p {
   margin: 2px 0;
   font-size: 7pt;
+  font-weight: bold;
 }
 
 #reviews-container {
