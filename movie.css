@@ -166,12 +166,13 @@ body {
 
 #sidebar h3 {
   font-family: Verdana, Tahoma, sans-serif;
-  font-size: 10pt;
-  margin: 8px 0 4px 0;
+  font-size: 12pt;
+  margin: 16px 0 10px 0;
 }
 
 #sidebar p {
   font-size: 8pt;
+  margin: 2px 0 6px 0;
 }
 
 #social-icons {
@@ -179,7 +180,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 14px;
 }
 
 #social-icons a {
@@ -189,14 +190,14 @@ body {
 }
 
 #trailer-btn {
-  margin-top: 12px;
+  margin-top: 16px;
   text-align: center;
 }
 
 #trailer-btn a {
   background-color: #17181a;
   color: #fff;
-  padding: 6px 14px;
+  padding: 8px 16px;
   text-decoration: none;
   border-radius: 50px;
   font-size: 8pt;
@@ -227,3 +228,4 @@ body {
   display: inline-block;
   margin-left: 4px;
 }
+
