@@ -10,7 +10,7 @@ body {
   width: 1200px;
   margin: 20px auto;
   background-color: #fff;
-  border: 1px solid black;  
+  border: 1px solid #17181a;  
   border-radius: 10px;
   box-sizing: border-box;
 }
@@ -39,7 +39,7 @@ body {
 #left-column {
   width: 800px;
   flex-shrink: 0;
-  border: 1px solid black;  
+  border: 1px solid #17181a;  
   border-radius: 10px;
   box-sizing: border-box;
   display: flex;
@@ -92,7 +92,8 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: #17181a 1px 1px 3px;
 }
 
 .poster-item p {
@@ -125,6 +126,7 @@ body {
   font-weight: bold;
   font-size: 8pt;
   box-shadow: #2d2d2d 1px 1px 3px;
+  margin-left: 10px;
 }
 
 .review-box p {
@@ -132,7 +134,9 @@ body {
 }
 
 .stars {
-  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
 }
 
 .stars img {
@@ -141,60 +145,37 @@ body {
 }
 
 .score {
-  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
   font-weight: bold;
+  float: right;
 }
 
 #sidebar {
-  width: 250px;
+  width: 300px;
   background-color: #A2B964;
   padding: 10px;
+  border-radius: 10px;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   font-size: 8pt;
-  min-height: 100%;
   flex-shrink: 0;
+  margin: 20px;
+  height: 30rem;
 }
 
 #sidebar h3 {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 10pt;
   margin: 8px 0 4px 0;
-  border-bottom: 1px solid #6a8a3a;
-  padding-bottom: 2px;
-}
-
-#sidebar dl {
-  margin: 0 0 8px 0;
-  padding: 0;
-}
-
-#sidebar dt {
-  font-weight: bold;
-  display: inline;
-}
-
-#sidebar dd {
-  display: inline;
-  margin: 0;
-}
-
-#sidebar dt::after {
-  content: " ";
-}
-
-#sidebar dd::after {
-  content: "\A";
-  white-space: pre;
 }
 
 #sidebar p {
-  margin: 2px 0 4px 0;
   font-size: 8pt;
 }
 
 #social-icons {
-  margin: 8px 0;
+  margin: 6px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,16 +189,16 @@ body {
 }
 
 #trailer-btn {
-  margin-top: 8px;
+  margin-top: 12px;
   text-align: center;
 }
 
 #trailer-btn a {
-  background-color: #2d2d2d;
+  background-color: #17181a;
   color: #fff;
   padding: 6px 14px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 50px;
   font-size: 8pt;
   font-family: Arial, sans-serif;
 }
@@ -228,8 +209,10 @@ body {
   text-align: center;
   padding: 5px;
   font-family: Verdana, Tahoma, sans-serif;
-  font-size: 8pt;
+  font-size: 16pt;
   width: 100%;
+  box-sizing: border-box;
+  border-radius: 0px 0px 10px 10px;
   box-sizing: border-box;
 }
 
